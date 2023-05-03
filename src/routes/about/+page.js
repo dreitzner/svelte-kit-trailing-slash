@@ -15,7 +15,7 @@ export const load = async ({ params, url }) => {
 		pathname: url.pathname
 	};
 
-	console.log('+page.server.js pathname', url.pathname);
+	console.log('+page.js pathname', url.pathname);
 
 	return output;
 };
